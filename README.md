@@ -1,6 +1,6 @@
 # AddDiscourse
 Explicit Discourse Connectives Tagger Java Implementation 
-
+Below is the instruction for Perl Script.
 
 Explicit Discourse Connectives Tagger - December 14, 2009
 -------------------------------------------------------------------------------
