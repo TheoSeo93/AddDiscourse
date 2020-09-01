@@ -260,7 +260,6 @@ public class AddDiscourse {
 
                         //Update newParsedText
                         //find first unannotated connective
-//                        regex = "\\b" + String.join("\\)*\\s+(\\s|\\(\\S*|\\))*", conn) + "\\)";
                         Pattern p4 = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
                         Matcher m4 = p4.matcher(newParsedText);
                         if (m4.find()) {
@@ -292,7 +291,6 @@ public class AddDiscourse {
                             int beginPos = pos - m4.group().length();
                             String insertString = m4.group();
                             insertString = insertString.replace(")", "#" + idInFile + "#" + maxLabel + ")");
-                            System.out.println(insertString);
                             newParsedText = newParsedText.substring(0, beginPos) + insertString + newParsedText.substring(pos);
                             //If long-distance, check for second part before the end of the sentence
                             if (longDistConnectives.containsKey(match.toLowerCase())) {
