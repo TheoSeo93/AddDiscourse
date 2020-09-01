@@ -1,6 +1,8 @@
 # AddDiscourse
-Explicit Discourse Connectives Tagger Java Implementation.
-[Below is the instruction for Perl Script.]
+Explicit Discourse Connectives Tagger Java Implementation based on the work described in <br />
+[Emily Pitler and Ani Nenkova.  Using Syntax to Disambiguate Explicit
+Discourse Connectives in Text.  Proceedings of the ACL-IJCNLP 2009
+Conference Short Papers, pages 13-16.](https://www.aclweb.org/anthology/P09-2004.pdf)
 
 Explicit Discourse Connectives Tagger - December 14, 2009
 -------------------------------------------------------------------------------
