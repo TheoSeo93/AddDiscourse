@@ -1,4 +1,4 @@
-# AddDiscourse (Originally implemented in Perl)
+# AddDiscourse 
 Explicit Discourse Connectives Tagger Java Implementation based on the work described in <br />
 [Emily Pitler and Ani Nenkova.  Using Syntax to Disambiguate Explicit
 Discourse Connectives in Text.  Proceedings of the ACL-IJCNLP 2009
