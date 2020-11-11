@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 
 /**
  * Java Translation from Perl script of Emily Pitler and Ani Nenkova's addDiscourse.pl
- *
+ * @TODO: take out all patterns as global variables
  * @Author Youngho Seo
  * <p>
  * Explicit Discourse Connectives Tagger - December 14, 2009
